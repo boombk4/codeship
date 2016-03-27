@@ -1,14 +1,30 @@
 {
-  "name": "codeship",
+  "name": "9jin",
   "version": "1.0.0",
-  "description": "",
+  "description": "9jin (midterm)",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "standard": "^6.0.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mocha-generators": "^1.2.0",
+    "nightmare": "^2.2.0"
+  },
   "scripts": {
-    "test": "node index.js"
+    "test": "node_modules/.bin/mocha test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boombk4/9Jin.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "chai": "^3.5.0"
-  }
+  "bugs": {
+    "url": "https://github.com/boombk4/9Jin/issues"
+  },
+  "homepage": "https://github.com/boombk4/9Jin#readme"
 }
